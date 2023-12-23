@@ -1,22 +1,60 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
     <head>
-        <title>AMR in Lao PDR</title>
-        <style type="text/css">
-            body, html
-            {
-                margin: 0; padding: 0; height: 100%; overflow: hidden;
-            }
-
-            #content
-            {
-                position:absolute; left: 0; right: 0; bottom: 0; top: 0px; 
-            }
-        </style>
+        <title>Antimicrobial Dashboards</title>
     </head>
     <body>
-        <div id="content">
-            <iframe width="100%" height="100%" frameborder="0" src="https://livedataoxford.shinyapps.io/amulaos/" />
-        </div>
+        <h1>
+            Antimicrobial Dashboards in Lao PDR
+        </h1>
+
+        <div class="row">
+            <div class="column">
+                <h2>AMR Dashboard</h2>
+                <a href="https://livedataoxford.shinyapps.io/amrlaos/">
+                    <img src="amr-laos-screenshot.png" alt="AMR in Lao PDR">
+                </a>
+                <div class="text-column">
+                    This web application focuses on AMR in bacteria, i.e. antibiotic resistance. The purpose of the application is to allow clinicians and laboratory workers to upload laboratory data and generate flexible summary tables and plots based on the reporting requirements of the World Health Organization Global Antimicrobial Resistance Surveillance System (WHO GLASS).
+                    </br></br>
+                    <form action="https://livedataoxford.shinyapps.io/amrlaos/" method="get" target="_blank">
+                        <button type="submit">Explore the AMR Dashboard</button>
+                    </form>
+                </div>
+                
+            </div>
+            <div class="column">
+                <h2>AMU Dashboard</h2>
+                <a href="https://livedataoxford.shinyapps.io/amulaos/">
+                    <img src="amu-laos-screenshot.png" alt="AMU in Lao PDR">
+                </a>
+                <div class="text-column">
+                    This hospital AMU dashboard allows clinicians, pharmacists and nurses to have easy access to their hospital data, as well as automatically produce a report for the Ministry of Health.
+                    </br></br>
+                    <form action="https://livedataoxford.shinyapps.io/amulaos/" method="get" target="_blank">
+                        <button type="submit">Explore the AMU Dashboard</button>
+                    </form>
+                </div>
+            </div>
+            <div class="column">
+                <h2>AMC Dashboard (Prototype)</h2>
+                <a href="https://livedataoxford.shinyapps.io/amclaos/">
+                    <img src="amc-laos-screenshot.png" alt="AMC in Lao PDR">
+                </a>
+                <div class="text-column">
+                    This AMC dashboard allows clinicians, pharmacists and nurses as well as policy makers to have easy access to antimicrobial consumption data in Laos.
+                    <div id="prototype">
+                        This is a prototype dashboard which isn't regularly  updated.
+                    </div>
+                    </br></br>
+                    <form action="https://livedataoxford.shinyapps.io/amulaos/" method="get" target="_blank">
+                        <button type="submit">Explore the AMC Dashboard</button>
+                    </form>
+                </div>
+            </div>
+          </div>
+
+
     </body>
 </html>

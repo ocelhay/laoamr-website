@@ -1,1 +1,1 @@
-Show the dashboard https://livedataoxford.shinyapps.io/amulaos/ (via iframe) when accessing https://laoamr.net
+https://laoamr.net welcome page: links to the three dashboards (AMR, AMU & AMC).
